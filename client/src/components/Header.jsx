@@ -9,13 +9,13 @@ export default function Header() {
             </Link>
             <ul className='flex gap-4'>
                 <Link to='/'>
-                    <li className='text-white'>Home</li>
+                    <li className='text-white text-2xl'>Home</li>
                 </Link>
                 <Link to='/about'>
-                    <li className='text-white'>About</li>
+                    <li className='text-white text-2xl'>About</li>
                 </Link>
                 <Link to='/sign-in'>
-                    <li className='text-white'>Sign In</li>
+                    <li className='text-white text-2xl'>Sign In</li>
                 </Link>
             </ul>
         </div>
